@@ -1,0 +1,45 @@
+.title {
+    text-align: center;
+    size: 15.5rem;
+    font-family: sans-serif;
+    text-decoration: underline;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 5px gray;
+}
+
+.about {
+    text-align: center;
+    font-family: sans-serif;
+    size: 12rem;
+    text-decoration: solid;
+}
+
+.student {
+    text-align: center;
+    font-family: sans-serif;
+    size: 10rem;
+    text-decoration: solid;
+}
+
+.conteiner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+body {
+    background-color: lightsalmon;
+}
